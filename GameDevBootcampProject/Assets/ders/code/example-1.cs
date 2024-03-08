@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class example : MonoBehaviour
@@ -12,6 +13,10 @@ public class example : MonoBehaviour
     int kilom = 80;
     float boyum = 1.82f;
     int sayi = 0;
+    int faktöriyel = 1;
+    int sayý = 1;
+    int toplam = 0; 
+
     
 
     void Start()
@@ -24,17 +29,35 @@ public class example : MonoBehaviour
 
         for (int sayi = 0; sayi <= 100; sayi++)
         {
-            Debug.Log("benim sayým :" + sayi);
+            Debug.Log(sayi);
         }
+
+        for (int sayi = 0; sayi <= 100; sayi++)
+        {
+
+            Debug.Log(toplam = toplam + sayi );
+        }
+
 
         for (int sayi = 0; sayi <= 100; sayi+=2)
         {
-            Debug.Log("benim çift sayým :" + sayi);
+            Debug.Log(" çift sayýlar :" + sayi);
         }
+       
+       
         for (int sayi = 1; sayi <= 100; sayi += 2)
         {
-            Debug.Log("benim tek sayým :" + sayi);
+            Debug.Log(" tek sayýlar :" + sayi);
         }
+        
+        
+        for ( int sayý = 1; sayý <= 7; sayý++)
+        {
+            faktöriyel = faktöriyel*sayý;
+            Debug.Log(faktöriyel);
+        }
+       
+        
     }
 
    
