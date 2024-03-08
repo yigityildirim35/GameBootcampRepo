@@ -60,8 +60,17 @@ public class firstLessonCode : MonoBehaviour
         
     }
 
-
-
+    // ödev -1 
+    /* 
+     * isim soyisim yaþ cinsiyet adres boy kilo bilgilerini ekrana yazdýrýn
+     * boy kilo endeksini yaptýrýn 
+     * 1-100 arasýndaki bütün sayýlarý ekrana yazdýrýn  ===> + - * / 
+     * 1-100'e kadar olan sayýlarýn toplamýný yazdýrýn ===> döngü yapýsý 
+     * 1-100 arasýndaký sayýlarý cýft olanlarý ekrana yazdýrýn ===> %
+     * 1-100 arasýndaký sayýlarý tek olanlarý ekrana yazdýrýn  ===> %
+     * 
+     * 7! sonucunu yazdýrýn 
+     */
 
 
 
