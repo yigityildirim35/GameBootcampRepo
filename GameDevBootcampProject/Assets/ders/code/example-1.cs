@@ -11,13 +11,13 @@ public class example : MonoBehaviour
     string cinsiyetim = "erkek";
     string adresim = "Mustafa Kemal mah. 694/23sok. Ýzmir Efeler Yurdu izmir/Buca";
     int kilom = 80;
-    float boyum = 1.82f;
+    int boyum = 182;
     int sayi = 0;
     int faktöriyel = 1;
     int sayý = 1;
-    int toplam = 0; 
-
-    
+    int toplam = 0;
+    string vki = "beden endeksim";
+     
 
     void Start()
     {
@@ -56,9 +56,24 @@ public class example : MonoBehaviour
             faktöriyel = faktöriyel*sayý;
             Debug.Log(faktöriyel);
         }
-       
-        
+
+        float vki = kilom / (boyum * boyum);
+         
+         
+        if (vki < 18.5 && vki > 24.9)
+        {
+            Debug.Log("zayýfsýn");
+        }
+        if (vki < 24.9 && vki > 25)
+        {
+            Debug.Log("normal kilodasýn");
+        }
+        if ( vki < 25)
+        {
+            Debug.Log("kilolusun");
+        }
     }
+
 
    
 }
